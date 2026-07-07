@@ -12,3 +12,7 @@ jfm has dependencies, those dependences are as listed.
 ## fbsd
 
 ```xorgproto libX11 libXft libXrender fontconfig freetype2 pkgconf gcc xdg-utils```
+
+# license
+
+jfm is licensed under the [bsd license 2.0](LICENSE)
