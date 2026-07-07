@@ -1,5 +1,7 @@
 # jfm
-jfm is a x11 file manager, it is used to manage files on x11.
+jfm is a x11 file manager, it is used to manage files on x11. (jfm stands for just (a) file manager) 
+
+![this is jfm managing files](jfm.png)
 
 # desp
 
@@ -15,4 +17,6 @@ jfm has dependencies, those dependences are as listed.
 
 # license
 
-jfm is licensed under the [bsd license 2.0](LICENSE)
+jfm is licensed under the [MIT license ](LICENSE)
+
+jfm does borrow some code from [the unofficial plan9 visual directory manager](https://github.com/telephil9/vdir)
