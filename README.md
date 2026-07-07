@@ -3,7 +3,7 @@ jfm is a x11 file manager, it is used to manage files on x11. (jfm stands for ju
 
 ![this is jfm managing files](jfm.png)
 
-# desp
+# deps
 
 jfm has dependencies, those dependences are as listed.
 
