@@ -15,3 +15,11 @@ theme.o: theme.c jfm.h
 
 clean:
 	rm -f jfm *.o
+
+install: jfm
+	install -Dm755 jfm /usr/local/bin/jfm
+
+uninstall:
+	rm -f /usr/local/bin/jfm
+
+.PHONY: all clean install uninstall
