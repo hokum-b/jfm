@@ -1,6 +1,6 @@
 CC = cc
-CFLAGS = -Wall -g -I. -I/usr/local/include $(shell pkg-config --cflags x11 xft fontconfig freetype2)
-LDFLAGS = $(shell pkg-config --libs x11 xft fontconfig freetype2) -lm
+CFLAGS = -Wall -g -I. -I/usr/local/include -I/usr/local/include/freetype2 $(shell pkg-config --cflags x11 xft fontconfig freetype2)
+LDFLAGS = -L/usr/local/lib $(shell pkg-config --libs x11 xft fontconfig freetype2) -lm
 
 OBJS = jfm.o theme.o
 
